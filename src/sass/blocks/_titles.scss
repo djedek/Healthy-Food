@@ -8,6 +8,9 @@
     text-transform: uppercase;
     color: $main-color;
     opacity: 0.7;
+    &_left {
+        text-align: left;
+    }
 }
 
 .subtitle {
@@ -19,4 +22,7 @@
     text-transform: capitalize;
     color: #150C01;
     text-align: center;
+    &_left {
+        text-align: left;
+    }
 }
