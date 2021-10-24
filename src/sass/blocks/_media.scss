@@ -68,6 +68,25 @@
             }
         }
     }
+    .take {
+        &__wrapper {
+            grid-template-columns: 1fr 323px;
+            column-gap: 20px;
+        }
+        &__descr {
+            padding: 180px 0 0 0;
+        }
+        .subtitle {
+            br {
+                display: none;
+            }
+        }
+        &__img {
+            img {
+                max-width: 323px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -92,6 +111,20 @@
             img {
                 width: 100%;
             }
+        }
+    }
+    .take {
+        padding-top: 60px;
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+        &__descr {
+            order: 2;
+            padding: 10px 0 0 0;
+        }
+        &__img {
+            order: 1;
+            justify-self: center;
         }
     }
 }
@@ -140,5 +173,15 @@
     }
     .food-menu {
         padding-top: 55px;
+    }
+    .take {
+        &__btns {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            a {
+                margin-bottom: 15px;
+            }
+        }
     }
 }
