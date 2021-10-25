@@ -87,6 +87,16 @@
             }
         }
     }
+    .testimonial {
+        .carousel {
+            .prev {
+                left: -60px;
+            }
+            .next {
+                right: -60px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -125,6 +135,26 @@
         &__img {
             order: 1;
             justify-self: center;
+        }
+    }
+    .testimonial {
+        &__descr {
+            br {
+                display: none;
+            }
+        }
+        .carousel {
+            .prev, .next {
+                top: auto;
+                bottom: -60px;
+            }
+
+            .prev {
+                left: 43%;
+            }
+            .next {
+                right: 43%;
+            }
         }
     }
 }
@@ -183,5 +213,8 @@
                 margin-bottom: 15px;
             }
         }
+    }
+    .testimonial {
+        padding-top: 60px;
     }
 }
