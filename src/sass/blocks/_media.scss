@@ -2,24 +2,29 @@
     .container {
         max-width: 960px;
     }
+
     .promo {
         &__wrapper {
             grid-template-columns: 1fr 425px;
         }
     }
+
     .features {
         &__wrapper {
             justify-content: space-around;
         }
+
         &__item {
             margin-bottom: 30px;
         }
     }
+
     .about {
         &__wrapper {
             column-gap: 50px;
         }
     }
+
     .food-menu {
         &__wrapper {
             justify-content: space-around;
@@ -31,67 +36,81 @@
     .container {
         max-width: 720px;
     }
+
     .promo {
         &__wrapper {
             grid-template-columns: 1fr 165px;
         }
+
         &__img {
             &-wrapper {
                 opacity: 0.5;
             }
         }
     }
+
     .about {
         &__wrapper {
             grid-template-columns: 1fr;
             row-gap: 40px;
         }
+
         &__img {
             order: 2;
+
             img {
                 width: 555px;
             }
         }
+
         &__descr {
             order: 1;
             padding-top: 0;
         }
     }
+
     .food-menu {
         &__wrapper {
             grid-template-columns: repeat(auto-fit, 300px);
             column-gap: 30px;
         }
+
         &__text {
             br {
                 display: none;
             }
         }
     }
+
     .take {
         &__wrapper {
             grid-template-columns: 1fr 323px;
             column-gap: 20px;
         }
+
         &__descr {
             padding: 180px 0 0 0;
         }
+
         .subtitle {
             br {
                 display: none;
             }
         }
+
         &__img {
             img {
                 max-width: 323px;
             }
         }
     }
+
     .testimonial {
         .carousel {
             .prev {
                 left: -60px;
             }
+
             .next {
                 right: -60px;
             }
@@ -103,19 +122,23 @@
     .container {
         max-width: 540px;
     }
+
     .hamburger {
         display: flex;
     }
+
     .header {
         &__menu {
             display: none;
         }
     }
+
     .promo {
         &__wrapper {
             grid-template-columns: 1fr 1px;
         }
     }
+
     .about {
         &__img {
             img {
@@ -123,28 +146,36 @@
             }
         }
     }
+
     .take {
         padding-top: 60px;
+
         &__wrapper {
             grid-template-columns: 1fr;
         }
+
         &__descr {
             order: 2;
             padding: 10px 0 0 0;
         }
+
         &__img {
             order: 1;
             justify-self: center;
         }
     }
+
     .testimonial {
         &__descr {
             br {
                 display: none;
             }
         }
+
         .carousel {
-            .prev, .next {
+
+            .prev,
+            .next {
                 top: auto;
                 bottom: -60px;
             }
@@ -152,6 +183,7 @@
             .prev {
                 left: 43%;
             }
+
             .next {
                 right: 43%;
             }
@@ -164,57 +196,78 @@
         width: 100%;
         padding: 0 10px;
     }
+
     .menu {
         &__block {
             width: 270px;
         }
     }
+
     .subtitle {
         font-size: 25px;
     }
+
     .promo {
         &__wrapper {
             grid-template-columns: 1fr 1px;
         }
+
         &__descr {
             padding-top: 90px;
         }
+
         &__title {
             font-size: 30px;
             line-height: 40px;
         }
+
         &__btns {
             width: 100%;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
+
         &__btn {
             &_white {
                 margin-top: 20px;
             }
         }
     }
+
     .about {
         &__btn {
             display: block;
             margin: 30px auto 0;
         }
     }
+
     .food-menu {
         padding-top: 55px;
     }
+
     .take {
         &__btns {
             width: 100%;
             flex-direction: column;
             align-items: center;
+
             a {
                 margin-bottom: 15px;
             }
         }
     }
+
     .testimonial {
         padding-top: 60px;
+    }
+
+    .contact {
+        &__form {
+            grid-template-columns: 1fr 90px;
+        }
+        &__btn {
+            width: 90px;
+        }
     }
 }
