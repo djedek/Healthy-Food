@@ -116,6 +116,12 @@
             }
         }
     }
+    
+    .footer {
+        &__menu {
+            width: 490px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -187,6 +193,17 @@
             .next {
                 right: 43%;
             }
+        }
+    }
+    .footer {
+        padding: 60px 0;
+        &__wrapper {
+            max-width: 100%;
+            flex-direction: column;
+        }
+        &__menu {
+            margin-top: 40px;
+            width: 100%;
         }
     }
 }
@@ -268,6 +285,12 @@
         }
         &__btn {
             width: 90px;
+        }
+    }
+    .footer {
+        &__menu {
+            justify-content: space-around;
+            gap: 30px;
         }
     }
 }

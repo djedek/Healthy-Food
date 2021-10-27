@@ -1,0 +1,60 @@
+.footer {
+    padding: 137px 0 104px 0;
+    background-color: #252525;
+
+    &__wrapper {
+        max-width: 990px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        margin-bottom: 25px;
+    }
+
+    &__title {
+        margin-bottom: 26px;
+        font-family: 'Philosopher';
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    &__menu {
+        width: 700px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 115px);
+        grid-template-rows: auto;
+        grid-auto-rows: auto;
+        justify-content: space-between;
+    }
+
+    ul {
+        margin: 0;
+        list-style-type: none;
+
+        li {
+            margin-bottom: 20px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+            opacity: 0.7;
+            a {
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        a {
+            &:hover {
+                filter: grayscale(70%);
+            }
+        }
+    }
+}
